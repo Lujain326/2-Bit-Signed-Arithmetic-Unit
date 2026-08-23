@@ -62,7 +62,7 @@ Through this project, I practiced:
 
 ## Circuit
 
-![2-Bit Signed Arithmetic Unit]([circuit.png](https://1drv.ms/i/c/210e17635efde1f9/IQBPtM82CWx8T4qtUK4qQDSoAbofqgyjFNrsy6Uj5siU8dU?e=TlskK0))
+![2-Bit Signed Arithmetic Unit](https://1drv.ms/i/c/210e17635efde1f9/IQBPtM82CWx8T4qtUK4qQDSoAbofqgyjFNrsy6Uj5siU8dU?e=TlskK0))
 
 ## Author
 
