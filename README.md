@@ -62,7 +62,7 @@ Through this project, I practiced:
 
 ## Circuit
 
-![2-Bit Signed Arithmetic Unit](<img width="427" height="454" alt="Circuit 1" src="https://github.com/user-attachments/assets/3241134b-0add-46b8-94bd-79808c0e5781" />
+(<img width="427" height="454" alt="Circuit 1" src="https://github.com/user-attachments/assets/3241134b-0add-46b8-94bd-79808c0e5781" />
 )
 
 ## Author
