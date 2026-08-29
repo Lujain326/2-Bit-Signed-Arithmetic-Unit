@@ -2,7 +2,7 @@
 
 A **2-bit signed arithmetic unit** designed and fully implemented in **Logisim Evolution**. The circuit performs arithmetic operations on two 2-bit signed numbers using **2's complement representation** and selectable control inputs.
 
-This project was developed as part of a **Digital Logic Design** project to practice building and connecting digital logic components into a functional arithmetic circuit.
+This project was developed as part of a **Digital Logic Design** project to practice designing and connecting digital logic components into a functional arithmetic circuit.
 
 ---
 
@@ -19,16 +19,17 @@ This project was developed as part of a **Digital Logic Design** project to prac
 
 ---
 
-## 🔢 Supported Operations
+## 🔢 Operation Selection
 
-The arithmetic operation is selected using a 2-bit control input:
+The arithmetic operation is selected using the control inputs.
 
-| Selector | Operation |
-|:---:|---|
-| `00` | Not used |
-| `01` | Addition |
-| `10` | Subtraction |
-| `11` | Multiplication |
+**Important:** `Cin2` must always be set to **`1`** for the circuit to perform the intended operations. Setting `Cin2` to `0` prevents the circuit from producing the expected results.
+
+| Control Input | `Cin2` | Operation |
+|:---:|:---:|---|
+| `01` | `1` | Addition |
+| `10` | `1` | Subtraction |
+| `11` | `1` | Multiplication |
 
 ---
 
@@ -36,19 +37,19 @@ The arithmetic operation is selected using a 2-bit control input:
 
 The circuit uses **2's complement representation** for signed 2-bit numbers.
 
-This allows the arithmetic unit to represent both positive and negative values within the available 2-bit range.
+Using 2's complement allows the arithmetic unit to represent both positive and negative values within the available 2-bit range.
 
 ---
 
 ## ⚙️ How It Works
 
-The arithmetic unit receives two 2-bit signed inputs.
+The arithmetic unit receives two **2-bit signed inputs**.
 
-The control input determines which arithmetic operation is selected. The circuit then routes the appropriate operation to the output using combinational logic.
+The control inputs determine which arithmetic operation is selected. The circuit then uses combinational logic to perform the selected operation and produce the corresponding output.
 
-The design combines multiple digital components, including **full adders, multiplexers, and logic gates**, to implement the required arithmetic operations.
+The design combines several digital logic components, including **full adders, multiplexers, and logic gates**, to implement the required arithmetic operations.
 
-The resulting output is displayed through the circuit's output components in Logisim Evolution.
+The resulting output is displayed through the circuit's output components in **Logisim Evolution**.
 
 ---
 
@@ -60,6 +61,16 @@ The resulting output is displayed through the circuit's output components in Log
 - Input Switches
 - Output Indicators
 - Seven-Segment Display Components
+
+---
+
+## 🖥️ Logisim Circuit
+
+The complete arithmetic unit was designed and implemented in **Logisim Evolution**.
+
+### Circuit Screenshot
+
+![2-Bit Signed Arithmetic Unit - Logisim Circuit](https://1drv.ms/i/c/210e17635efde1f9/IQA0hcOCGOn7T7mGRQN5RXfbAdDG6iT-LmL7PgshFcZPNJc?e=QtCoP4)
 
 ---
 
@@ -81,14 +92,15 @@ I also used Logisim Evolution to simulate and verify the circuit's behavior.
 - Multiplexers
 - Full Adders
 - Logic Gates
-- Connecting Digital Logic Components
-- Circuit Simulation
+- Digital Circuit Integration
+- Circuit Simulation and Verification
 
 ---
 
 ## 🛠️ Tool Used
 
 - **Logisim Evolution**
+- **Digital design**
 
 ---
 
@@ -98,3 +110,10 @@ I also used Logisim Evolution to simulate and verify the circuit's behavior.
 2-Bit-Signed-Arithmetic-Unit/
 ├── README.md
 └── arithmetic_unit.circ
+
+---
+
+##👩‍💻 Author
+
+Lujain Ayman
+Computer Engineering Student
