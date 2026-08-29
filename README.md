@@ -71,8 +71,7 @@ The complete arithmetic unit was designed and implemented in **Logisim Evolution
 
 ### Circuit Screenshot
 
-![2-Bit Signed Arithmetic Unit - Logisim Circuit](https://1drv.ms/i/c/210e17635efde1f9/IQA0hcOCGOn7T7mGRQN5RXfbAdDG6iT-LmL7PgshFcZPNJc?e=QtCoP4)
-
+![2-Bit Signed Arithmetic Unit - Logisim Circuit](https://1drv.ms/i/c/210e17635efde1f9/IQA0hcOCGOn7T7mGRQN5RXfbAdDG6iT-LmL7PgshFcZPNJc?e=IOp8T3)
 ---
 
 ## 👩‍💻 My Contribution
