@@ -111,9 +111,9 @@ I also used Logisim Evolution to simulate and verify the circuit's behavior.
 ├── README.md
 └── arithmetic_unit.circ
 
----
+```
 
 ###👩‍💻 Author
 
-**Lujain Ayman**
+Lujain Ayman
 Computer Engineering Student
