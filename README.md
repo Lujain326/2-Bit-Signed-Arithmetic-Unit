@@ -25,12 +25,12 @@ The arithmetic operation is selected using the control inputs.
 
 **Important:** `Cin2` must always be set to **`1`** for the circuit to perform the intended operations. Setting `Cin2` to `0` prevents the circuit from producing the expected results.
 
-| selector Input | `Cin2` | Operation |
-|:---:|:---:|---|
-| `00` | `1` | not used |
-| `01` | `1` | Addition |
-| `10` | `1` | Subtraction |
-| `11` | `1` | Multiplication |
+| selector Input | `Cin2` | `Cin0` | `zero` | `operations` |
+|:---:|:---:|:---:|:---:|---|
+| `00` | `1` | `0` | `0` | not used |
+| `01` | `1` | `0` | `0` | Addition |
+| `10` | `1` | `0` | `0` | Subtraction |
+| `11` | `1` | `0` | `0` | Multiplication |
 
 ---
 
@@ -71,7 +71,7 @@ The complete arithmetic unit was designed and implemented in **Logisim Evolution
 
 ### Circuit Screenshot
 
-![2-Bit Signed Arithmetic Unit - Logisim Circuit](https://1drv.ms/i/c/210e17635efde1f9/IQA0hcOCGOn7T7mGRQN5RXfbAdDG6iT-LmL7PgshFcZPNJc?e=IOp8T3)
+2-Bit Signed Arithmetic Unit - Logisim Circuit : (https://1drv.ms/i/c/210e17635efde1f9/IQA0hcOCGOn7T7mGRQN5RXfbAdDG6iT-LmL7PgshFcZPNJc?e=IOp8T3)
 ---
 
 ## 👩‍💻 My Contribution
