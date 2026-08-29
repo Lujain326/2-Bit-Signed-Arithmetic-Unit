@@ -113,7 +113,7 @@ I also used Logisim Evolution to simulate and verify the circuit's behavior.
 
 ```
 
-###👩‍💻 Author
+## 👩‍💻 Author
 
 Lujain Ayman
 Computer Engineering Student
