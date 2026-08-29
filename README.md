@@ -25,8 +25,9 @@ The arithmetic operation is selected using the control inputs.
 
 **Important:** `Cin2` must always be set to **`1`** for the circuit to perform the intended operations. Setting `Cin2` to `0` prevents the circuit from producing the expected results.
 
-| Control Input | `Cin2` | Operation |
+| selector Input | `Cin2` | Operation |
 |:---:|:---:|---|
+| `00` | `1` | not used |
 | `01` | `1` | Addition |
 | `10` | `1` | Subtraction |
 | `11` | `1` | Multiplication |
